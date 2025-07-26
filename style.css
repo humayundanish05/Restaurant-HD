@@ -284,3 +284,84 @@ footer p {
   font-size: 13px;
   margin-top: 20px;
 }
+
+/* 📱 Responsive Layout for All Sections */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-cart {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .search-cart input {
+    width: 100%;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-search input,
+  .hero-search button {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .category-list {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .cat {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .restaurant-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  footer ul {
+    margin-bottom: 20px;
+  }
+}
