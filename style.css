@@ -1,3 +1,8 @@
+/* Global Responsive Setup */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* Reset and Base */
 * {
   margin: 0;
